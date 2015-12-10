@@ -1,0 +1,38 @@
+.cart-floating {
+    display: none;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .cart-floating {
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    width: 11.5em;
+    background-color: #007CCE;
+    right: 0;
+    padding: .3em;
+    margin-right: 4%;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .cartcontainer{
+    text-align: center;
+  }
+  
+  .cart-floating h3{
+    padding: 0;
+    margin: 0;
+    font-weight: 800;
+    font-size: 1.2em;
+    
+  }
+  
+  .item-count{
+    
+  }
+  
+  a.cart-contents, .cart-contents h3 {
+    color: #FFF;
+  }
+  
+}
